@@ -8,6 +8,7 @@ Key features include:
 - Allowing users to select a word to fill a blank and unselect it by clicking the filled blank.
 - A 30-second timer for each sentence challenge.
 - Automatic navigation to the next question when the timer expires.
+- Automatic saving of the user's entered answer when the 30-second timer ends.
 - Enabling the "Next" button only after all blanks in the current sentence are filled.
 - Fetching sentence and word option data from a JSON API.
 - Robust state management to handle the application flow smoothly.
