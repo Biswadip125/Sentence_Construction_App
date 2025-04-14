@@ -5,9 +5,9 @@ To get started with this project, follow these steps:
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Biswadip125/Sentence_Construction_App
+    cd Sentence_Construction_App
     ```
-    *(Replace `<repository_url>` with the actual URL of your repository)*
 
 2.  **Install the dependencies:**
 
