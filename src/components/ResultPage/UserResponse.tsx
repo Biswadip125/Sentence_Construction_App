@@ -44,7 +44,7 @@ const UserResponse: React.FC<UserResponseProps> = ({
             </h1>
             <p>{questionNo}/10</p>
           </div>
-          <p>{reconstructedQuestion}</p>
+          <p className="text-[#414343] text-md">{reconstructedQuestion}</p>
         </div>
       </div>
       <div className="h-1/2 bg-[#F6F9F9] px-3 py-2">
@@ -57,13 +57,13 @@ const UserResponse: React.FC<UserResponseProps> = ({
               className={`${
                 isAnswerCorrect
                   ? "text-green-400 bg-[#EEFBEF]"
-                  : "text-red-400 bg-[#fbf1ee]"
+                  : "text-red-400 bg-[#FCEBEC]"
               }  px-2 py-1 rounded-lg`}
             >
-              {isAnswerCorrect ? "correct" : "wrong"}
+              {isAnswerCorrect ? "Correct" : "Incorrect"}
             </p>
           </div>
-          <p>{reconstructedAnswer}</p>
+          <p className="text-[#2A2D2D] text-md">{reconstructedAnswer}</p>
         </div>
       </div>
     </div>
